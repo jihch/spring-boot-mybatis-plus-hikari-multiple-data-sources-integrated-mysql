@@ -1,0 +1,18 @@
+spring:
+  datasource:
+    hikari:
+      datasource-world:
+        jdbc-url: jdbc:mysql://127.0.0.1:3306/world
+        username: root
+        password: 123456
+      datasource-testdb:
+        jdbc-url: jdbc:mysql://127.0.0.1:3306/testdb
+        username: root
+        password: 123456
+
+logging:
+  level:
+    org:
+      springframework:
+        beans:
+          factory: DEBUG
